@@ -2,6 +2,19 @@
 
 基于 sing-box 的原生 macOS 代理客户端。此公开仓库提供安装包、版本说明及完整性校验文件。
 
+## Windows 原生版：1.3.15（x86_64）
+
+适用于 Windows 10/11 的 Intel / AMD 64 位电脑，需要 .NET Framework 4.8 或更新版本。
+
+- [下载安装包 Setup.exe](https://github.com/niujt/NeoClash-Releases/releases/download/windows-native-v1.3.15/NeoClash-1.3.15-Windows-Native-x64-Setup.exe)
+- [完整 ZIP](https://github.com/niujt/NeoClash-Releases/releases/download/windows-native-v1.3.15/NeoClash-1.3.15-Windows-Native-x64.zip) · [更新说明与校验文件](https://github.com/niujt/NeoClash-Releases/releases/tag/windows-native-v1.3.15)
+
+已安装 Windows 原生版：在“更新”中依次点击“检查更新 → 下载更新 → 覆盖更新并退出”，然后手动重新打开 NeoClash。也可正常退出旧版后，使用 Setup 覆盖安装到原目录；订阅和设置保留。
+
+本次包含可选 TUN、官方企业 VPN 引擎接入与页内认证、订阅兼容及空 ALPN 修复。TUN 需要以管理员身份运行；企业引擎安装需要管理员授权。EXE/Setup 未做 Authenticode 签名。实际企业登录、TUN 与 ChatGPT 连接请以目标电脑验证为准。
+
+本次更新包为 x86_64；Windows ARM64 用户继续使用对应 ARM64 包。Electron 版请使用 Setup 迁移，不使用原生版 ZIP 更新器。
+
 ## 当前版本：1.1.24（build 25）
 
 需要 macOS 14 或更高版本。请选择与 Mac 芯片匹配的安装包：
