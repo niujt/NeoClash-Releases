@@ -2,16 +2,16 @@
 
 基于 sing-box 的原生代理客户端。本仓库提供 Windows 和 macOS 安装包、版本说明与 SHA256 校验文件。
 
-## Windows · x64 / ARM64 1.3.47
+## Windows · x64 / ARM64 1.3.48
 
 | 电脑 | 安装包 | 完整目录 ZIP |
 | --- | --- | --- |
-| Windows 10/11 · Intel / AMD 64 位 · 1.3.47（.NET Framework 4.8+） | [下载 x64 Setup.exe](https://github.com/niujt/NeoClash-Releases/releases/download/windows-native-v1.3.47/NeoClash-1.3.47-Windows-Native-x64-Setup.exe) | [x64 ZIP](https://github.com/niujt/NeoClash-Releases/releases/download/windows-native-v1.3.47/NeoClash-1.3.47-Windows-Native-x64.zip) |
-| Windows 11 ARM64 · 1.3.47（.NET Framework 4.8.1+） | [下载 ARM64 Setup.exe](https://github.com/niujt/NeoClash-Releases/releases/download/windows-native-v1.3.47/NeoClash-1.3.47-Windows-Native-arm64-Setup.exe) | [ARM64 ZIP](https://github.com/niujt/NeoClash-Releases/releases/download/windows-native-v1.3.47/NeoClash-1.3.47-Windows-Native-arm64.zip) |
+| Windows 10/11 · Intel / AMD 64 位 · 1.3.48（.NET Framework 4.8+） | [下载 x64 Setup.exe](https://github.com/niujt/NeoClash-Releases/releases/download/windows-native-v1.3.48/NeoClash-1.3.48-Windows-Native-x64-Setup.exe) | [x64 ZIP](https://github.com/niujt/NeoClash-Releases/releases/download/windows-native-v1.3.48/NeoClash-1.3.48-Windows-Native-x64.zip) |
+| Windows 11 ARM64 · 1.3.48（.NET Framework 4.8.1+） | [下载 ARM64 Setup.exe](https://github.com/niujt/NeoClash-Releases/releases/download/windows-native-v1.3.48/NeoClash-1.3.48-Windows-Native-arm64-Setup.exe) | [ARM64 ZIP](https://github.com/niujt/NeoClash-Releases/releases/download/windows-native-v1.3.48/NeoClash-1.3.48-Windows-Native-arm64.zip) |
 
-正常退出托盘中的旧版，运行对应架构 Setup，覆盖安装到原目录后打开 NeoClash。订阅和设置会保留。也可以通过应用内「更新」下载安装。从 1.3.46 发起更新时，按提示手动打开新版。之后从 1.3.47 发起的更新会在自检通过后自动重开。Electron 用户使用 Setup 迁移。
+正常退出托盘中的旧版，运行对应架构 Setup，覆盖安装到原目录后打开 NeoClash。订阅和设置会保留。也可以通过应用内「更新」下载安装。从 1.3.46 发起更新时，按提示手动打开新版。从 1.3.47 或更高版本发起的更新会在自检通过后自动重开。Electron 用户使用 Setup 迁移。
 
-1.3.47 增加可续接的首次连接和连接体检。切网后订阅可在原时限内补一次重试。覆盖更新通过启动自检后自动打开新版，自检失败时回滚。分流试算补齐关闭按钮和无效输入提示。
+1.3.48 在首次连接和添加订阅中加入读取后的确认窗。取消时保留输入。节点要求跳过证书验证时可在同一窗口授权，选项默认关闭，只对当前订阅生效。手动检查更新时可以继续连接或切换代理。
 
 本次更新覆盖 Windows x64 与 ARM64。
 
@@ -31,7 +31,7 @@ Intel Mac 暂无本次更新包；[历史 Intel 1.1.24](https://github.com/niujt
 
 [macOS 1.2.62 发布说明](https://github.com/niujt/NeoClash-Releases/releases/tag/neoclash-v1.2.62-win1.3.40) · [macOS 对应 SHA256SUMS.txt](https://github.com/niujt/NeoClash-Releases/releases/download/neoclash-v1.2.62-win1.3.40/SHA256SUMS.txt) · [所有版本](https://github.com/niujt/NeoClash-Releases/releases) · [客户端源码](https://github.com/niujt/NeoClash)
 
-[Windows 1.3.47 发布说明](https://github.com/niujt/NeoClash-Releases/releases/tag/windows-native-v1.3.47) · [Windows SHA256SUMS.txt](https://github.com/niujt/NeoClash-Releases/releases/download/windows-native-v1.3.47/SHA256SUMS.txt)
+[Windows 1.3.48 发布说明](https://github.com/niujt/NeoClash-Releases/releases/tag/windows-native-v1.3.48) · [Windows SHA256SUMS.txt](https://github.com/niujt/NeoClash-Releases/releases/download/windows-native-v1.3.48/SHA256SUMS.txt)
 
 Windows 双架构 CI 验证了 WPF 界面、真实内核、系统代理恢复和安装升级卸载。
 
