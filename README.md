@@ -23,7 +23,7 @@
 
 [下载 NeoClash-1.2.78.dmg](https://github.com/niujt/NeoClash-Releases/releases/download/macos-v1.2.78/NeoClash-1.2.78.dmg)
 
-可从应用菜单「NeoClash → 检查更新」发现新版并在浏览器下载 DMG。正常退出运行中的 NeoClash，打开 DMG，将 NeoClash.app 安装到“应用程序”。
+先正常退出旧版 NeoClash，打开 DMG，将 NeoClash.app 拖到「应用程序」并选择替换。已安装同版本的旧包时也需要覆盖一次。内置 Sparkle 的版本可以从「NeoClash → 检查更新…」下载并安装后续签名更新。应用确认系统代理已恢复后才准备安装，完成后会重启。
 
 1.2.78 修复启动闪退。支持五种界面语言和首次启动地区选择，新增每日代理流量提醒与「检查并恢复」，并区分 ChatGPT 检测超时和 TLS 握手失败。安装包使用 Apple Development 开发签名，未完成 Developer ID 签名与 Apple 公证。
 
