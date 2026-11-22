@@ -17,19 +17,31 @@
 
 保留可选 TUN 与企业 VPN 会话隔离。Windows EXE / Setup 未做 Authenticode 签名。TUN 和企业引擎的既有管理员授权要求不变；真实企业登录与业务访问仍需在目标电脑确认。
 
-## macOS 1.2.62 · Apple Silicon
+## macOS 1.2.78 · build 111 · Apple Silicon
 
-macOS 1.2.77 在启动时可能闪退，已暂停推送。修复版验证期间可使用原有可运行版本。
+需要 macOS 14 或更新版本，目前正式版支持系统代理，TUN 暂不支持。
 
-[下载 NeoClash-1.2.62.dmg](https://github.com/niujt/NeoClash-Releases/releases/download/neoclash-v1.2.62-win1.3.40/NeoClash-1.2.62.dmg)
+[下载 NeoClash-1.2.78.dmg](https://github.com/niujt/NeoClash-Releases/releases/download/macos-v1.2.78/NeoClash-1.2.78.dmg)
+
+可从应用菜单「NeoClash → 检查更新」发现新版并在浏览器下载 DMG。正常退出运行中的 NeoClash，打开 DMG，将 NeoClash.app 安装到“应用程序”。
+
+1.2.78 修复启动闪退。支持五种界面语言和首次启动地区选择，新增每日代理流量提醒与「检查并恢复」，并区分 ChatGPT 检测超时和 TLS 握手失败。安装包使用 Apple Development 开发签名，未完成 Developer ID 签名与 Apple 公证。
+
+当前公开的 macOS 安装包适用于 Apple Silicon。
 
 ## 更新说明与校验
 
-[macOS 1.2.62 发布说明](https://github.com/niujt/NeoClash-Releases/releases/tag/neoclash-v1.2.62-win1.3.40) · [macOS 对应 SHA256SUMS.txt](https://github.com/niujt/NeoClash-Releases/releases/download/neoclash-v1.2.62-win1.3.40/SHA256SUMS.txt) · [所有版本](https://github.com/niujt/NeoClash-Releases/releases) · [客户端源码](https://github.com/niujt/NeoClash)
+[macOS 1.2.78 发布说明](https://github.com/niujt/NeoClash-Releases/releases/tag/macos-v1.2.78) · [macOS 对应 SHA256SUMS.txt](https://github.com/niujt/NeoClash-Releases/releases/download/macos-v1.2.78/SHA256SUMS.txt) · [所有版本](https://github.com/niujt/NeoClash-Releases/releases) · [客户端源码](https://github.com/niujt/NeoClash)
 
 [Windows 1.3.53 发布说明](https://github.com/niujt/NeoClash-Releases/releases/tag/windows-native-v1.3.53) · [Windows SHA256SUMS.txt](https://github.com/niujt/NeoClash-Releases/releases/download/windows-native-v1.3.53/SHA256SUMS.txt)
 
 Windows 双架构 CI 验证了 WPF 界面、真实内核、系统代理恢复和安装升级卸载。
+
+## 保留版本
+
+- macOS 上一版 [1.2.62（Apple Silicon）](https://github.com/niujt/NeoClash-Releases/releases/tag/neoclash-v1.2.62-win1.3.40)
+- Windows 原生上一版 [1.3.50（x64 / ARM64）](https://github.com/niujt/NeoClash-Releases/releases/tag/windows-native-v1.3.50)
+- Electron [1.2.0 Windows 安装包与源码](https://github.com/niujt/NeoClash-Releases/releases/tag/windows-v1.2.0)和[完整源码归档](https://github.com/niujt/NeoClash-Releases/releases/tag/windows-electron-archive-v1.2.0)
 
 ## 第三方组件
 
