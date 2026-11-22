@@ -39,7 +39,6 @@ Windows 双架构 CI 验证了 WPF 界面、真实内核、系统代理恢复和
 
 ## 保留版本
 
-- macOS 上一版 [1.2.62（Apple Silicon）](https://github.com/niujt/NeoClash-Releases/releases/tag/neoclash-v1.2.62-win1.3.40)
 - Windows 原生上一版 [1.3.50（x64 / ARM64）](https://github.com/niujt/NeoClash-Releases/releases/tag/windows-native-v1.3.50)
 - Electron [1.2.0 Windows 安装包与源码](https://github.com/niujt/NeoClash-Releases/releases/tag/windows-v1.2.0)和[完整源码归档](https://github.com/niujt/NeoClash-Releases/releases/tag/windows-electron-archive-v1.2.0)
 
