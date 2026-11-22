@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>NeoClash macOS</title>
+    <item>
+      <title>NeoClash 1.2.78</title>
+      <sparkle:version>111</sparkle:version>
+      <sparkle:shortVersionString>1.2.78</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/niujt/NeoClash-Releases/releases/download/macos-v1.2.78/NeoClash-1.2.78.dmg" length="26403282" type="application/octet-stream" sparkle:edSignature="AtRUWVDaO9tn32V9VW5tNCK29lm2TsZemeRhjr85y2P9x3ijF37NhH0zlI0tkFxcs0l/AjWB811k9uwwwEpdDg=="></enclosure>
+    </item>
+  </channel>
+</rss><!-- sparkle-signatures:
+edSignature: l2joh7xHtyJ5RE9EAoKFuA7eGLRM5pqEsf+XnbQYNaMEUKjLy9aA66tO9O1/n1LLa6he8G803jzvUiN8m0BcBg==
+length: 983
+-->
